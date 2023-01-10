@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableNavigate
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"Location","key":"Destination","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Text","label":null,"summary":"Optional
+      text for description\t","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":1.0,"$type":"System.Single"},"_type":"System.Single","key":"fadeTime","label":"Fade
+      Time","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Navigate
+      to Location","summary":"Navigate to another Location","pan":{"x":260.6148,"y":101.9342},"zoom":0.6,"elements":[{"defaultValues":{},"position":{"x":-361.0,"y":-55.0},"guid":"11fc2f9a-3cc9-422f-ace4-bc16747ee825","$version":"A","$type":"Bolt.GraphInput","$id":"14"},{"chainable":false,"member":{"name":"GetComponentInParent","parameterTypes":["System.Type"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null,"%t":{"$content":"Location","$type":"System.RuntimeType"}},"position":{"x":-223.0,"y":-157.0},"guid":"4acafa9f-580d-467c-91fd-39d79a864ab1","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Text":null},"position":{"x":350.0,"y":-49.0},"guid":"fca65198-db91-47ae-8a4c-6fc1743dfc00","$version":"A","$type":"Bolt.SuperUnit","$id":"19"},{"chainable":false,"member":{"name":"JumpToDestination","parameterTypes":["Location","System.Single"],"targetType":"Location","targetTypeName":"Location","$version":"A"},"defaultValues":{"target":null,"%destinationLocation":null,"%fadeTime":{"$content":0.0,"$type":"System.Single"}},"position":{"x":85.0,"y":-51.0},"guid":"139031e7-eecf-4313-8dd1-e7c34c67d1b4","$version":"A","$type":"Bolt.InvokeMember","$id":"22"},{"defaultValues":{},"position":{"x":554.0,"y":-46.0},"guid":"30ea142f-5579-4923-936a-4d25ca5c5399","$version":"A","$type":"Bolt.GraphOutput","$id":"25"},{"sourceUnit":{"$ref":"22"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"Enter","guid":"44dd4c90-d92e-4319-be6d-e6bf20e54e65","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Enter","destinationUnit":{"$ref":"22"},"destinationKey":"enter","guid":"93491d54-e958-4196-9ef5-e8a102a10f10","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"Exit","destinationUnit":{"$ref":"25"},"destinationKey":"Exit","guid":"3f142c37-01c6-484d-aea7-1ce4305b3d53","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"result","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"dfd09a2a-6760-4bc0-9730-bede37c49148","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Destination","destinationUnit":{"$ref":"22"},"destinationKey":"%destinationLocation","guid":"7066e294-0fee-42c3-a592-552d12a5bf05","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Text","destinationUnit":{"$ref":"19"},"destinationKey":"Text","guid":"f17e2c27-7633-4728-ad21-b5e6f611180a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"fadeTime","destinationUnit":{"$ref":"22"},"destinationKey":"%fadeTime","guid":"fa94befc-395f-44dc-a858-861ad9e9b2c7","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 05a95d5ed22df9c4e81063f47c069e06, type: 2}

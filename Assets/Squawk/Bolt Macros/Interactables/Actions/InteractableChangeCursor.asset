@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableChangeCursor
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"main","$type":"CursorController+CursorName"},"_type":"CursorController+CursorName","key":"Cursor","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Update
+      Cursor","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-283.0,"y":-41.0},"guid":"5f97579b-4297-4ee1-bc6d-7f011de91351","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":108.0,"y":-35.0},"guid":"28d32841-3914-468d-afe6-6eb7aa0b745a","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"cursor","parameterTypes":null,"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"main","$type":"CursorController+CursorName"}},"position":{"x":-114.0,"y":-45.0},"guid":"807dbcad-0485-4e10-93d1-750a50a7a078","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"2e95bfb0-fab4-4fce-bcdf-c5b94c249b2a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"6c7843c7-9885-4a9e-ac25-7555fcff9928","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Cursor","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"ca114853-ccbb-468b-8d13-0acccfad3ca6","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

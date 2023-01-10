@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableShowText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Text","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Show
+      Text","summary":"Shows text in upper text window (usually but not necessarily
+      on an Interactable)","pan":{"x":50.26007,"y":-405.4854},"zoom":0.958457,"elements":[{"defaultValues":{},"position":{"x":-246.0,"y":-418.0},"guid":"2366f40e-1096-410a-883c-345b3877797c","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":442.0,"y":-418.0},"guid":"f54f052f-367b-4918-a6a5-c1b31411d82b","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"ActivateDescription","parameterTypes":["System.String"],"targetType":"Tooltip","targetTypeName":"Tooltip","$version":"A"},"defaultValues":{"target":null,"%txt":{"$content":"","$type":"System.String"}},"position":{"x":65.0,"y":-418.0},"guid":"60740559-56d6-44a9-9985-fb32a5f058ed","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"chainable":false,"member":{"name":"FindObjectOfType","parameterTypes":["System.Type"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%type":{"$content":"GameController","$type":"System.RuntimeType"}},"position":{"x":-484.0,"y":-555.0},"guid":"9f167a92-cfc0-4a70-9b61-e14432856da6","$version":"A","$type":"Bolt.InvokeMember","$id":"19"},{"member":{"name":"tooltip","parameterTypes":null,"targetType":"GameController","targetTypeName":"GameController","$version":"A"},"defaultValues":{"target":null},"position":{"x":-147.0,"y":-531.0},"guid":"1dd052b3-412f-44cd-a2aa-144766941ea6","$version":"A","$type":"Bolt.GetMember","$id":"22"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"c6f82a21-8431-4836-8e61-483362ab4078","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"d3dac66e-3c20-419f-a885-1bb6930d3850","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Text","destinationUnit":{"$ref":"16"},"destinationKey":"%txt","guid":"0f754a87-d037-4cd2-92af-a4193b3e4ae5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"result","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"787ef5f4-1bdf-45aa-87dd-9f0db8994897","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"deb61c2b-c33b-4656-9cb9-2d8ca94fccf5","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

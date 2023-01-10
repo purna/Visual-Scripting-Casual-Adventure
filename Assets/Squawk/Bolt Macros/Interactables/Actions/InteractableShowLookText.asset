@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableShowLookText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Display
+      Look Text","summary":"Displays an interactable''s \"look text\" in the standard
+      text window","pan":{"x":110.1923,"y":-346.9736},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-246.0,"y":-418.0},"guid":"2366f40e-1096-410a-883c-345b3877797c","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"defaultValues":{},"position":{"x":357.0,"y":-418.0},"guid":"f54f052f-367b-4918-a6a5-c1b31411d82b","$version":"A","$type":"Bolt.GraphOutput","$id":"13"},{"chainable":false,"member":{"name":"ActivateDescription","parameterTypes":["System.String"],"targetType":"Tooltip","targetTypeName":"Tooltip","$version":"A"},"defaultValues":{"target":null,"%txt":{"$content":"","$type":"System.String"}},"position":{"x":49.0,"y":-433.0},"guid":"60740559-56d6-44a9-9985-fb32a5f058ed","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"member":{"name":"tooltip","parameterTypes":null,"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null},"position":{"x":-131.0,"y":-486.0},"guid":"46a4a8aa-4414-461f-8404-8d61e2ab83ec","$version":"A","$type":"Bolt.GetMember","$id":"18"},{"member":{"name":"lookText","parameterTypes":null,"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null},"position":{"x":-144.0,"y":-318.0},"guid":"494d9196-7538-43c1-9b69-a767dc12fc1f","$version":"A","$type":"Bolt.GetMember","$id":"21"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Enter","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"df7136c5-da49-4d84-bd83-93ec2cf74f99","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"13"},"destinationKey":"Exit","guid":"936b9da3-8e8b-4a6f-a1fb-5ca83d61a37e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"140950d0-b700-411c-aea2-24f0534a169a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%txt","guid":"9a4bd135-e6e4-4b40-b887-d7eae64e3d85","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

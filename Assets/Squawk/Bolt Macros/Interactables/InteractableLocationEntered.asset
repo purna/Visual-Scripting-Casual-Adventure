@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableLocationEntered
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Location
+      entered","label":null,"summary":null,"hideLabel":false},{"key":"Location left","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"Active","label":"Active?","summary":"Is
+      this interactable active","hideLabel":false}],"title":null,"summary":null,"pan":{"x":109.0,"y":-35.70377},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":221.0,"y":-108.0},"guid":"c90c4614-f888-478d-a65a-155d1bf1db26","$version":"A","$type":"Bolt.GraphOutput","$id":"12"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"LocationEntered","$type":"System.String"}},"position":{"x":-53.0,"y":-216.0},"guid":"20470869-de3f-45ce-be02-c80e4860d939","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"LocationLeft","$type":"System.String"}},"position":{"x":-45.0,"y":-87.0},"guid":"2e44d00b-de40-4366-a273-80e561fb2558","$version":"A","$type":"Bolt.CustomEvent","$id":"16"},{"member":{"name":"isActive","parameterTypes":null,"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null},"position":{"x":-44.0,"y":47.0},"guid":"0d7bcc76-69a7-443a-a189-8a0105c70891","$version":"A","$type":"Bolt.GetMember","$id":"18"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"Location
+      entered","guid":"ac253b39-5129-4b8e-968b-4926e3763542","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"Location
+      left","guid":"2e4b7d75-03fc-4b27-9e4f-4a53581e453c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"Active","guid":"0ed58ea5-cc2d-476e-8c0b-63d8f8d27393","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

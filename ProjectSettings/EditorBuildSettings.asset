@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Squawk/Scenes/0 GameController.unity
+    guid: 65ff422fa0c637d48a089bfb2886b2c5
+  - enabled: 1
+    path: Assets/Squawk/Scenes/1 MainMenu.unity
+    guid: 653250fec65ece4478bd6eb3e1e9fb34
+  - enabled: 1
+    path: Assets/Squawk/Scenes/2 Inventory.unity
+    guid: b61a67b22287d014ca1f6a951db2fd5e
+  - enabled: 1
+    path: Assets/Squawk/Scenes/ChimneyCollapse_cutscene.unity
+    guid: af4ff158d91ff5d4aa4eaab9ec0291d9
+  - enabled: 1
+    path: Assets/Squawk/Scenes/Intro_cutscene.unity
+    guid: bd92a00592c08c64f8756435581b47d2
+  - enabled: 1
+    path: Assets/Squawk/Scenes/XmasAdventure.unity
+    guid: a8f84b1526d6db04e8fe31e4bdb45d05
+  m_configObjects: {}

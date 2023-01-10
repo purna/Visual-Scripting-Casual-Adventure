@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableChangeLookText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Text","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Change
+      \"Look\" text","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-314.0,"y":-40.0},"guid":"0f89389c-39c6-4cf0-88ea-50aa94ff004b","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"fba56dde-678f-442a-b9de-b0cb28271b98","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"lookText","parameterTypes":null,"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":-140.0,"y":-57.0},"guid":"72ad4e82-a921-4ba2-8ce4-aef68c1f00c8","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"0de9dffa-8d61-4df2-9082-efdd52fa84df","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"9ca44c36-560e-42c4-9d23-95cae06fd6a5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Text","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"a7208f08-6405-404a-a847-2f6d8e3c9df2","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

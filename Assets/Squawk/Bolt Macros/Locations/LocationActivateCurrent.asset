@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: LocationActivateCurrent
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":true,"$type":"System.Boolean"},"_type":"System.Boolean","key":"activate","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Activate
+      current location","summary":"Activates/decativates the current location as
+      recorded in the chapter","pan":{"x":-26.5,"y":-27.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-281.0,"y":-4.0},"guid":"d3315b16-0ba2-40df-a331-b75005e2dce5","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":269.0,"y":-7.0},"guid":"16fedcc5-c90a-4fc1-9a79-0d92654c75b6","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"ActivateCurrentLocation","parameterTypes":["System.Boolean"],"targetType":"Chapter","targetTypeName":"Chapter","$version":"A"},"defaultValues":{"target":null,"%active":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-48.0,"y":-22.0},"guid":"aa326501-be48-4495-89f5-b35648140304","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"chainable":false,"member":{"name":"FindObjectOfType","parameterTypes":["System.Type"],"targetType":"UnityEngine.Object","targetTypeName":"UnityEngine.Object","$version":"A"},"defaultValues":{"%type":{"$content":"GameController","$type":"System.RuntimeType"}},"position":{"x":-591.0,"y":-152.0},"guid":"f8179afa-1c65-43b8-b98f-279e13215721","$version":"A","$type":"Bolt.InvokeMember","$id":"19"},{"member":{"name":"currentChapter","parameterTypes":null,"targetType":"GameController","targetTypeName":"GameController","$version":"A"},"defaultValues":{"target":null},"position":{"x":-258.0,"y":-133.0},"guid":"d7eeb040-b010-4a91-9af8-81faa6768bbd","$version":"A","$type":"Bolt.GetMember","$id":"22"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"c1c6e80c-57aa-4ccb-b944-24f6b6291af2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"d6c0eb5f-c96c-4c29-bd01-aa4b4d83208c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"activate","destinationUnit":{"$ref":"16"},"destinationKey":"%active","guid":"c0a66ce6-5edd-451a-8133-ce155e790cbc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"result","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"3fcdbe35-0fc0-4686-8ec1-e8e135e2d225","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"ea4bf90b-3d72-4cfc-b401-ec9a75eb99b8","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

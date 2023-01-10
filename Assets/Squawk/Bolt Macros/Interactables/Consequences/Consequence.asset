@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Consequence
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"ConsequenceSO","key":"Consequence","label":null,"summary":"ConsequenceSO
+      object","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":true,"$type":"System.Boolean"},"_type":"System.Boolean","key":"Fulfil","label":null,"summary":"Fulfil
+      or unfulfil consequence","hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"BoltInteractable","key":"Affected
+      interactable","label":null,"summary":"Object affected","hideLabel":false}],"valueOutputDefinitions":[],"title":"Consequence","summary":"Consequance
+      caused by completing an action","pan":{"x":156.9312,"y":-10.57919},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-207.0,"y":-101.0},"guid":"30ca433a-1590-4356-b996-8ffda0bfccb3","$version":"A","$type":"Bolt.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":413.0,"y":-95.0},"guid":"312feb98-51d0-44ac-b69e-02a3e091645c","$version":"A","$type":"Bolt.GraphOutput","$id":"16"},{"argumentCount":2,"defaultValues":{"name":{"$content":"fulfilConsequence","$type":"System.String"},"target":null},"position":{"x":107.0,"y":-114.0},"guid":"c663448e-9b89-4dca-84f2-53f74c1e7808","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"18"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Enter","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"0fd66088-10f8-4374-a26b-2ceb0e0749a2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"Exit","guid":"2f85aa5c-5ad9-4fb3-b391-4e68e2043e83","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Consequence","destinationUnit":{"$ref":"18"},"destinationKey":"argument_0","guid":"69ffd2dc-1778-4892-b988-7b82fe8b3192","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Fulfil","destinationUnit":{"$ref":"18"},"destinationKey":"argument_1","guid":"f5e42b2c-0ab0-4e5b-9806-0cd9369fd7ad","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Affected
+      interactable","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"75530fae-936a-4969-90b0-391d6efb669c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

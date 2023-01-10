@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: LocationChangeBackground
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"Location","key":"Location","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.Sprite","key":"New
+      sprite","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Location
+      change background","summary":"Changes the background sprite of a location","pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-385.0,"y":-27.0},"guid":"e86ea5ba-7a6b-435d-821c-9f621e667742","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"b900b964-bc24-4966-b59f-245f9abd2550","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"chainable":false,"member":{"name":"ChangeBackground","parameterTypes":["UnityEngine.Sprite"],"targetType":"Location","targetTypeName":"Location","$version":"A"},"defaultValues":{"target":null,"%newBackground":null},"position":{"x":-169.0,"y":-29.0},"guid":"7918db47-6978-4ff4-a50a-8eaee758863d","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Enter","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"d030a0a7-de81-4950-804d-abf781138c4b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"Exit","guid":"e5e62f9f-0684-4148-b212-8f54abce0b50","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Location","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"8cc0f862-8aa2-45a7-9d1c-d1353eabec91","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"New
+      sprite","destinationUnit":{"$ref":"17"},"destinationKey":"%newBackground","guid":"42368261-bb20-41e7-bdaf-9d13c58b5a10","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

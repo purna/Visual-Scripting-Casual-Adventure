@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InteractableActivate
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"BoltInteractable","key":"Interactable","label":null,"summary":"Interactable
+      to activate or deactivate","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":true,"$type":"System.Boolean"},"_type":"System.Boolean","key":"Activate","label":null,"summary":"Activate/deactivate
+      = true/false","hideLabel":false}],"valueOutputDefinitions":[],"title":"Activate
+      Interactable","summary":"Acrtivate or deactivate an interactable","pan":{"x":0.0,"y":-33.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-317.0,"y":-131.0},"guid":"93efbff6-a785-4d81-8e16-61a0532e85ef","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":164.0,"y":-131.0},"guid":"1ee2da10-3348-45ac-ba17-80663530a45e","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"chainable":false,"member":{"name":"ActivateInteractable","parameterTypes":["System.Boolean"],"targetType":"BoltInteractable","targetTypeName":"BoltInteractable","$version":"A"},"defaultValues":{"target":null,"%active":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-100.0,"y":-131.0},"guid":"bc0449f5-4c63-4b2e-8b41-ee47a12e7e8b","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Enter","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"d1df091c-369d-4eaf-b0e9-c3c5d9101c48","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"Exit","guid":"03995477-b07b-49ce-a66d-9598f644bee2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Interactable","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"2639e36d-e2b5-4e1e-84a2-8f053559fe57","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Activate","destinationUnit":{"$ref":"17"},"destinationKey":"%active","guid":"a793dcfa-297f-4407-b116-7fa9961c0a6a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
