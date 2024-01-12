@@ -107,6 +107,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -119,6 +120,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -131,6 +133,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -143,6 +146,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -369,16 +373,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      DigitSpritesheet_0: 476872876411721318
+      DigitSpritesheet_1: 2333936109355388919
+      DigitSpritesheet_2: -3262742171033334342
+      DigitSpritesheet_3: 1183776849156180948
+      DigitSpritesheet_4: 8623082153930794437
+      DigitSpritesheet_5: -3033851907062581837
+      DigitSpritesheet_6: -1132522825988853890
       DigitSpritesheet_7: 4603790146068572946
       DigitSpritesheet_8: 7444527387866683007
       DigitSpritesheet_9: -7993453305096168947
-      DigitSpritesheet_6: -1132522825988853890
-      DigitSpritesheet_2: -3262742171033334342
-      DigitSpritesheet_0: 476872876411721318
-      DigitSpritesheet_3: 1183776849156180948
-      DigitSpritesheet_4: 8623082153930794437
-      DigitSpritesheet_1: 2333936109355388919
-      DigitSpritesheet_5: -3033851907062581837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

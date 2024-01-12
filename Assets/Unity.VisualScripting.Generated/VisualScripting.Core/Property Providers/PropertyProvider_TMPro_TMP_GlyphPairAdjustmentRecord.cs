@@ -12,8 +12,8 @@ namespace Unity.VisualScripting.Generated.PropertyProviders
 {
 	
 	
-	[global::Unity.VisualScripting.SerializedPropertyProviderAttribute(typeof(global::TMPro.MarkToMarkAdjustmentRecord))]
-	public class PropertyProvider_TMPro_MarkToMarkAdjustmentRecord : Unity.VisualScripting.SerializedPropertyProvider<TMPro.MarkToMarkAdjustmentRecord>
+	[global::Unity.VisualScripting.SerializedPropertyProviderAttribute(typeof(global::TMPro.TMP_GlyphPairAdjustmentRecord))]
+	public class PropertyProvider_TMPro_TMP_GlyphPairAdjustmentRecord : Unity.VisualScripting.SerializedPropertyProvider<TMPro.TMP_GlyphPairAdjustmentRecord>
 	{
 	}
 }
